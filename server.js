@@ -67,6 +67,7 @@ server.put('/videos/:id', (request, reply) => {
         duration,
     })
 
+
     return reply.status(204).send()
 })
 
